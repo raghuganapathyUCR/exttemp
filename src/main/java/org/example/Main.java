@@ -3,7 +3,7 @@ package org.example;
 import javax.annotation.Nullable;
 
 public class Main {
-    static void log( Object x) {
+    static void log( @Nullable Object x) {
         System.out.println(x.toString());
     }
     static void foo() {
